@@ -1,0 +1,73 @@
+body {
+    background: #353D2F;
+}
+
+.app {
+    margin: 0 32px;
+}
+
+.app h1 {
+    color: #F7A072;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.app p.sub-title {
+    color: #D7DAE5;
+    text-align: center;
+}
+
+.app .inputs-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 32px;
+    right: 32px;
+}
+
+.app .inputs-wrapper .inputs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.app .inputs-wrapper .inputs input {
+    width: 45px;
+    height: 60px;
+    border: 2px solid #D7DAE5;
+    background: #515B3A;
+    font-size: 32px;
+    text-align: center;
+    color: #D7DAE5;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.app button {
+    width: 100%;
+    background: #F7A072;
+    border: 1px solid #F7A072;
+    color: #353D2F;
+    height: 40px;
+    font-weight: bold;
+}
+
+.app .inputs-wrapper button {
+    margin-top: 100px;
+}
+
+.app .inputs-wrapper button.disabled {
+    opacity: 0.5;
+}
+
+
+.app.message {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+}
